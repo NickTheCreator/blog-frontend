@@ -16,11 +16,11 @@
 }
 
 .postCardContent h1 {
-	color:var(--text-main);
+	color: var(--text-main);
 	margin: 0;
 }
 
-.postCardContent p{
+.postCardContent p {
 	color: var(--text-secondary);
 }
 

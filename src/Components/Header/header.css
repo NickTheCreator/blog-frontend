@@ -1,0 +1,23 @@
+.header-container {
+	box-sizing: border-box;
+	background: var(--primary-blue);
+	padding: 12px;
+
+	width: 100%;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	position: fixed;
+	gap: 20px;
+	top: 0;
+	left: 0;
+
+	z-index: 10;
+}
+
+.header-navigation {
+	display: flex;
+	justify-content: space-between;
+}

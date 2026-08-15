@@ -1,22 +1,17 @@
-import { Outlet } from 'react-router-dom'
-import './index.css';
-import { Alayout } from './Components/alayout';
+import { Alayout } from "./Components/alayout";
+import { Outlet } from "react-router-dom";
+import "./index.css";
 
 function App() {
+	return (
+		<>
+			<Alayout />
 
-
-
-  return (
-    <>
-    <Alayout />
-
-      <main>
-        <Outlet />
-      </main>
-
-
-    </>
-  )
+			<main>
+				<Outlet />
+			</main>
+		</>
+	);
 }
 
-export default App
+export default App;
